@@ -35,15 +35,10 @@ public class BottomViewBinaryTree {
                 TreeNode node=pair.getKey();
                 int line=pair.getValue();
 
-                if(!map.containsKey(line)){
-                    map.put(line,node.val);
-                }
-                else {
-                    int val=map.get(line);
-                    map.put(line,null);
+
                     map.put(line,node.val);
 
-                }
+
 
                 if(node.left!=null){
                     q.add(new Pair<>(node.left,line-1));
