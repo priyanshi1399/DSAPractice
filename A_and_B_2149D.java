@@ -10,6 +10,7 @@ public class A_and_B_2149D {
         int t = sc.nextInt();
         for(int i=0;i<t;i++){
             solve(sc);
+
         }
 
     }
