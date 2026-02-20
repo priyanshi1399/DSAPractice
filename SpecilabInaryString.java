@@ -7,7 +7,7 @@ public class SpecilabInaryString {
     public static void main(String[] args) {
         String s="11011000";
         String ans=makeLargestSpecial(s);
-        //good problem on recursionn
+        //good problem on recursion
         System.out.println(ans);
 
     }
